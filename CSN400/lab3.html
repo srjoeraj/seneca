@@ -36,6 +36,8 @@
 <li><a href="#rohan-rajguru-uid-98">Rohan Rajguru UID: 98</a></li>
 <li><a href="#network-diagram">Network Diagram</a></li>
 <li><a href="#partners-config">Partners Config</a></li>
+<li><a href="#visual-inspection">Visual Inspection</a></li>
+<li><a href="#post-lab">Post Lab</a></li>
 </ul>
 </div>
 
@@ -275,11 +277,38 @@
 <span class="n">username</span><span class="w"> </span><span class="s">student106</span><span class="w"> </span><span class="s">password</span><span class="w"> </span><span class="s">csn400</span><span class="w"></span>
 <span class="nb">exit</span><span class="w"></span>
 </pre></div>
+
+
+<h1 id="visual-inspection">Visual Inspection</h1>
+<p>Visual Inspection Lab 3</p>
+<p>Optional:  Start Wireshark and capture all traffic on the network interface that is connected to the back room (NOTE:  If you don't do this now, you will have to do it later, repeat the tests in the VI and catch all of this traffic.)</p>
+<p>Perform the following actions from your Ubuntu VM:</p>
+<p>SSH into your Switch
+SSH into your Router
+SSH into your partner's Switch
+SSH into your partner's Router</p>
+<p>If you did not run wireshark at the beginning of this inspection, you must run it now and re-do the inspection to capture the packets.</p>
+<h1 id="post-lab">Post Lab</h1>
+<p>Post Lab 3 Submission </p>
+<p>Submit a FILTERED .pcap file from the .pcap file created during your visual inspection that contains only the following packets:</p>
+<p>An EIGRP packet sent from your Router (1 packet)</p>
+<p>An SSH request from your PC to your Partner's Switch and the response back (2 Packets)
+An SSH request from your PC to your partner's Router and the response back (2 Packets)</p>
+<p>SCREENSHOTS:</p>
+<p>Take screenshots of the output of each of the following commands from your Router:</p>
+<p>sh ip eigrp interfaces
+sh ip eigrp neigbors
+sh ip eigrp topology
+sh ip eigrp traffic</p>
+<p>Take screenshots of the output of each of the following commands from your Switch:</p>
+<p>sh vtp status
+sh vlan</p>
+<p>DO NOT COMPRESS FILES(.zip, .7z, .rar, etc) INCLUDE EACH FILE INDIVIDUALLY OR ALTERNATIVELY, YOU MAY COMBINE ALL SCREENSHOTS INTO A SINGLE WORD DOCUMENT AND SUBMIT THE .docx FILE.</p>
             </div>
         </div>
 
         <div id="generated-at">
-        Generated at: 2023-02-02 09:31:57
+        Generated at: 2023-02-08 18:48:33
     </div>
             
 
